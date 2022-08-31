@@ -1,0 +1,25 @@
+.foot {
+  color: #fff;
+  background: #282c34;
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+}
+
+.foot a {
+  color: #fff;
+}
+
+@media screen and (min-width: 640px) {
+}
