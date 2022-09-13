@@ -32,9 +32,6 @@ const LegalSpeech = () => {
           </li>{" "}
         </ul>
         <ul>
-          <strong>Responsable d'agence</strong> : <li>Benoît MASSON</li>{" "}
-        </ul>
-        <ul>
           <strong>Représentants légaux</strong> :{" "}
           <li>Julien Lipkowicz & Marc Réveillaud</li>{" "}
         </ul>

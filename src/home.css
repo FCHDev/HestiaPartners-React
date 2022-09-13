@@ -8,17 +8,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: start;
-  /*animation: 1.3s ease-in-out 0s 1 slideInFromLeft;*/
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  align-items: flex-start;
 }
 
 .container {
@@ -27,12 +17,12 @@ body {
   align-items: center;
   flex-direction: column;
   height: auto;
+  max-width: 1900px;
   position: relative;
 }
 
 @media screen and (min-width: 640px) {
   body {
-    animation: none;
     height: 100vh;
     margin: 0 auto;
   }

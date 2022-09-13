@@ -3,7 +3,7 @@
 }
 
 .banner img {
-  height: 250px;
+  height: auto;
   width: 100%;
   border-radius: 7px;
 }
@@ -11,7 +11,7 @@
 @media screen and (min-width: 640px) {
   .banner {
     display: block;
-    margin: 10px;
-    width: 80%;
+    margin-top: 10px;
+    width: 100%;
   }
 }
