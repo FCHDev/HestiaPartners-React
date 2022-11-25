@@ -44,6 +44,58 @@ hr {
   margin-bottom: 20px;
 }
 
+.download-button {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  background: #282c35;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 7px 0;
+  cursor: pointer;
+}
+
+.back-button {
+  text-decoration: none;
+}
+
+.back-button button {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  background: #6595ed;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 7px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.bareme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+
+.bareme img {
+  min-height: 80vh;
+  max-width: 100vw;
+}
+
 @media screen and (min-width: 640px) {
   body {
     animation: 1.3s ease-in-out 0s 1 slideInFromLeft;

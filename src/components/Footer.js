@@ -13,7 +13,7 @@ const Footer = () => {
             <li>Accueil</li>
           </NavLink>
 
-          <Link to="/cgv#topLegal">
+          <Link to="/cgv#top">
             <li>Mentions légales</li>
           </Link>
         </ul>

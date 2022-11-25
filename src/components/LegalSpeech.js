@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/legal-speech.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 const LegalSpeech = () => {
   return (
@@ -15,7 +16,7 @@ const LegalSpeech = () => {
         </ul>
         <ul>
           <strong>Adresse du siège social</strong> :{" "}
-          <li>14 Avenue Duvelleroy 94130 Nogent-sur-Marne </li>
+          <li>14 Avenue Duvelleroy 94130 Nogent-sur-Marne</li>
         </ul>
         <ul>
           <strong>Adresse email</strong> :{" "}
@@ -38,14 +39,14 @@ const LegalSpeech = () => {
 
         <ul>
           <strong>Tribunal de commerce d'immatriculation du RCS </strong>:{" "}
-          <li>Créteil </li>
+          <li>Créteil</li>
         </ul>
         <ul>
           <strong>Numéro TVA</strong> : <li>FR 55892432477 </li>
         </ul>
         <ul>
           <strong>Numéro de carte professionnelle </strong>:{" "}
-          <li>CPI 9401 2021 000 000092 </li>
+          <li>CPI 9401 2021 000 000092</li>
         </ul>
         <ul>
           <strong>
@@ -60,9 +61,26 @@ const LegalSpeech = () => {
             NANTERRE CEDEX, sur le territoire national sous le n° 6944930704
           </li>
         </ul>
+        <ul style={{ fontWeight: "bold" }}>
+          Barème de Transaction :
+          <li>
+            <Link to="/bareme#bareme">
+              <button className="download-button">Consulter</button>
+            </Link>
+          </li>
+          <li>
+            <a
+              href="/BarèmeTransaction.pdf"
+              download={true}
+              style={{ height: "40px" }}
+            >
+              <button className="download-button">Télécharger</button>
+            </a>
+          </li>
+        </ul>
       </p>
 
-      <p style={{ paddingTop: "18px" }}>
+      <p style={{ paddingTop: "10px" }}>
         <strong>
           DECLARANT NE POUVOIR NI RECEVOIR NI DETENIR D'AUTRES FONDS, EFFETS OU
           VALEURS QUE CEUX REPRÉSENTATIFS DE SA RÉMUNERATION
